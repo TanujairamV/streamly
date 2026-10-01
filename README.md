@@ -86,8 +86,4 @@ R --> S[Personalized answer shown to user]
 
 ## Prototype
 
-| <img title="" src="frontend/assets/prototype/chat.png" alt="" width="330" align="center"> | <img title="" src="fastlane/metadata/android/en-US/images/phoneScreenshots/details.png" alt="" width="330" align="center"> | <img title="" src="fastlane/metadata/android/en-US/images/phoneScreenshots/schedule.png" alt="" width="330" align="center"> |
-|:-------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|
-
-| <img title="" src="fastlane/metadata/android/en-US/images/phoneScreenshots/batch.png" alt="" width="330" align="center"> | <img title="" src="fastlane/metadata/android/en-US/images/phoneScreenshots/filters.png" alt="" width="330" align="center"> | <img title="" src="fastlane/metadata/android/en-US/images/phoneScreenshots/settings.png" alt="" width="330" align="center"> |
-|:-------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------:|
+| <img title="" src="frontend/assets/prototype/chat.png" alt="" width="330" align="center"> | <img title="" src="frontend/assets/prototype/llmmsg.png" alt="" width="330" align="center"> 
