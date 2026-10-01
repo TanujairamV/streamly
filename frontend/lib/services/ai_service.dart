@@ -5,34 +5,49 @@ import 'package:http/http.dart' as http;
 class AIService {
 
   static const String baseUrl =
-      "http://YOUR_IP:8000";
+      "https://subclarity-ai-api.onrender.com";
 
 
   static Future<String> getExplanation(
       String action
       ) async {
 
-    final response = await http.post(
-      Uri.parse("$baseUrl/ai/explain"),
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: jsonEncode({
-        "action": action
-      }),
-    );
+    try {
+
+      final response = await http.post(
+        Uri.parse("$baseUrl/ai/explain"),
+
+        headers: {
+          "Content-Type": "application/json",
+        },
+
+        body: jsonEncode({
+          "action": action,
+        }),
+      );
 
 
-    if(response.statusCode == 200){
+      if (response.statusCode == 200) {
 
-      final data = jsonDecode(response.body);
+        final data = jsonDecode(response.body);
 
-      return data["response"];
+        return data["response"] ?? 
+            "No AI response received.";
+
+      }
+
+
+      throw Exception(
+        "AI request failed: ${response.statusCode}"
+      );
+
+
+    } catch (e) {
+
+      throw Exception(
+        "Unable to connect with AI service: $e"
+      );
 
     }
-
-    throw Exception(
-      "AI request failed"
-    );
   }
 }
