@@ -1,0 +1,10 @@
+Subscription Cancellation Policy
+
+Cancellation stops future subscription renewals.
+
+Cancellation is different from pausing.
+
+When a user cancels:
+- Future renewal charges are stopped.
+- Current access continues according to the cancellation rules.
+- User confirmation is required before cancellation.

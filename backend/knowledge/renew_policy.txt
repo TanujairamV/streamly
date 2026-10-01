@@ -1,0 +1,8 @@
+Subscription Renewal Policy
+
+Renewal continues the selected subscription plan.
+
+Before renewal:
+- Show plan price.
+- Show next billing date.
+- Ask for user confirmation.
