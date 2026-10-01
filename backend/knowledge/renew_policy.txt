@@ -1,8 +1,14 @@
-SubClarity Subscription Renewal Policy
+SUBCLARITY SUBSCRIPTION POLICY
 
-Renewal continues the selected subscription plan.
+Topic: Renewal
+
+Definition:
+Renewal continues an existing subscription.
 
 Before renewal:
-- Show the subscription price.
-- Show the next billing date.
-- Require user confirmation.
+The system must display:
+- Subscription plan
+- Price
+- Billing date
+
+The user must explicitly confirm renewal.

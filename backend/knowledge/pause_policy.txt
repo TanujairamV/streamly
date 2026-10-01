@@ -1,13 +1,24 @@
-Subscription Pause Policy
+SUBCLARITY SUBSCRIPTION POLICY
 
-A pause temporarily suspends a subscription.
+Topic: Pause Subscription
 
-Pause is different from cancellation.
+Definition:
+Pause temporarily suspends an active subscription without permanently cancelling it.
 
-When a user pauses:
-- The subscription is temporarily inactive.
-- The user can resume the subscription later.
-- Future billing resumes according to the subscription billing schedule.
-- The user must confirm before pausing.
+Important distinction:
+Pause is not cancellation.
 
-The application must clearly explain that pause does not cancel the subscription.
+When a subscription is paused:
+- User temporarily stops active usage.
+- Subscription remains associated with the user's account.
+- Future billing depends on the selected pause duration.
+- User can resume the subscription later.
+
+Before confirmation:
+The user must see:
+- Current plan
+- Current billing cycle
+- Next billing date
+- Difference between pause and cancellation
+
+The system must never automatically pause a subscription without user confirmation.

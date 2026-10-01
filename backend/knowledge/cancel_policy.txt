@@ -1,10 +1,18 @@
-Subscription Cancellation Policy
+SUBCLARITY SUBSCRIPTION POLICY
 
+Topic: Cancellation
+
+Definition:
 Cancellation stops future subscription renewals.
 
-Cancellation is different from pausing.
+Important distinction:
+Cancellation is permanent until the user subscribes again.
 
-When a user cancels:
-- Future renewal charges are stopped.
-- Current access continues according to the cancellation rules.
-- User confirmation is required before cancellation.
+When cancelled:
+- Future recurring charges stop.
+- Current subscription access follows cancellation rules.
+- User must confirm cancellation.
+
+The user must understand:
+Pause = temporary suspension
+Cancel = stop future renewal
